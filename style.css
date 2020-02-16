@@ -138,7 +138,7 @@ nav {
     padding-bottom: 2vh;
 }
 
-.about button {
+button {
     background-color: #FCFCFC;
     border: 2px solid #1e2631;
     border-radius: 8px;
@@ -152,7 +152,7 @@ nav {
     transition: 0.3s;
 }
 
-.about button:hover {
+button:hover {
     background-color: #F6F6F6;
     cursor: pointer;
     filter: drop-shadow(0px 2px 5px rgba(34, 34, 34, 0.3));
@@ -198,9 +198,17 @@ nav {
     padding: 5vh;
 }
 
+.projects h1 {
+    padding-bottom: 2vh;
+}
+
+.projects h3 {
+    padding-bottom: 2vh;
+}
+
 .projects p {
     font-size: 18px;
-    padding-top: 2vh;
+    padding-bottom: 2vh;
 }
 
 .contact {
@@ -214,4 +222,5 @@ nav {
 .contact p {
     font-size: 18px;
     padding-top: 2vh;
+    padding-bottom: 2vh;
 }
