@@ -11,6 +11,7 @@ nav {
     min-height: 8vh;
     background-color: #273342;
     font-family: 'Muli', sans-serif;
+    overflow-x: hidden;
 }
 
 .logo {
