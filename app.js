@@ -7,6 +7,11 @@ const navSlide = () => {
         nav.classList.toggle('nav-active');
         burger.classList.toggle('toggle');
     });
+
+    nav.addEventListener('click', ()=> {
+        nav.classList.toggle('nav-active');
+        burger.classList.toggle('toggle');
+    });
 }
 
 const changeHeader = () => {
