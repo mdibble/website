@@ -146,10 +146,27 @@
 
     <div class="projects" id="projects">
         <h1>Projects</h1>
-        <h3>Chess in C++</h3>
-        <p> Currently, I'm working on a version of chess in C++ to help improve my object-oriented programming skills. By the end, I want to 
-            incorporate a graphics library like SFML or SDL2 to give it a graphical interface, as it's only in the terminal as of now. You can 
-            view the code on my GitHub below.
+        <h3>Chess</h3>
+        <img src='./assets/lang_cpp.png'>
+        <p> Currently, I'm working on a version of chess in C++ to help improve my object-oriented programming skills. I just recently 
+            finished the game logic, so it is now fully-featured and includes abilities to castle, upgrade pawns, and
+            perform an en passant. The game also includes logic to prevent invalid moves, including moves that don't remove a player from
+            check. It also automatically can detect a checkmate situation. All the logic was done without looking at any other projects
+            for reference, so I'm sure there are more efficient ways to write a chess program than what I've done. I'm glad I did it on
+            my own though, because I think it made for a better learning and problem-solving experience.
+        </p>
+        <p> I would like to expand upon this project by incorporating a library such as SFML or SDL2 to give it a
+            graphical interface, as it's only in the terminal as of now. I'm also looking at implementing the
+            <a href='https://stockfishchess.org/'>Stockfish</a> chess engine as an opponent. You can view the code on my GitHub below.
+        </p>
+
+        <h3>Website</h3>
+        <img src='./assets/lang_html.png'>
+        <img src='./assets/lang_css.png'>
+        <img src='./assets/lang_js.png'>
+        <p> Part of the reason I started work on this website was to become better at web development. This website uses HTML/CSS and some
+            JavaScript for the various animations. As of now it's a fairly simple page, but I'd love to look at implementing React in the
+            future.
         </p>
         <button onclick="location.href='http://github.com/mdibble/';">GitHub</button>
     </div>
@@ -160,6 +177,11 @@
         </p>
         <button onclick="location.href='http://linkedin.com/in/matthew-b-dibble/';">LinkedIn</button>
     </div>
+
+    <footer>
+        <p>Copyright © 2020 Matthew Dibble</p>
+        <a href='#'>Back to Top</a>
+    </footer>
 
     <script src="app.js"></script>
 </body>
